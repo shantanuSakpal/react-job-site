@@ -14,7 +14,7 @@ const Jobs = () => {
             <div className='jobs-div'>
                 {
                     roles.map((role, index) => {
-                        return <a href={`#`}><RoleCard role={role} /></a>
+                        return <a href={'/apply'}><RoleCard role={role} /></a>
                     }
                     )
                 }
